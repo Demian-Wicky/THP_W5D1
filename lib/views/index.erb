@@ -5,13 +5,13 @@
   </head>
 
   <body>
-    <h1>Mon super site de gossip, depuis le dossier views !</h1>
+    <h1>Bienvenue sur The Gossip Project (Sinatra version)</h1>
 
     <% gossips.each_with_index do |gossip, index| %>
       <p>
         <%= gossip.author %><br/>
         <%= gossip.content %><br/>
-        <a href="/gossips/<%=index%>">Voir la page potin</a>
+        <a href="/gossips/<%=index%>/">Voir la page potin</a>
       </p>
     <% end %>
 

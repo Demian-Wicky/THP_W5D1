@@ -24,9 +24,7 @@ class Gossip
 
   def self.find(id)
     all_gossips = Gossip.all
-    puts all_gossips[id.to_i]
     return all_gossips[id.to_i]
   end
-
 
 end
